@@ -39,7 +39,7 @@ namespace BinaryStringTests
 		[TestCase("0102011")]
 		public void Throw_Exception_For_Invalid_Input(string input)
 		{
-			Assert.Throws<ArgumentException>(() => _converter.ConvertString(input));
+      Assert.Throws<ArgumentException>(() => _converter.ConvertString(input));
 		}
 	}
 }
